@@ -1,15 +1,30 @@
-﻿Converter for Splash ID Safe for Symbian S60v2 decrypted database file to KeePass 1.x CSV
+﻿Converter for Splash ID Safe 3.32 for Symbian S60v2 (may be S60v1 and S60v3 
+too) decrypted database file to KeePass 1.x CSV
 (C) 2013 Dmitry Gusev (dimagsv@gmail.com)
 License: GPL v3
 
+Usage:
+splashids60v2conv <.aRc file> <new csv file>
 
-FAQ
+Example: 
+splashids60v2conv .aRc file.csv
+
+
+Q&A:
 
 Q: How to compile?
 A: You can use Free Pascal Compiler or download precompiled win32 version.
 
-Q: How I can to obtain a decrypted database file of SplashID Safe 3.32 for Symbian S60v2?
-A: The .aRc file (decrypted database) may be obtained by sending database via bluetooth or IR from phone using the SplashID program (menu - send - bluetooth) to other phone or PC.
+Q: How I can to obtain a decrypted database file of SplashID Safe 3.32 for 
+Symbian S60v2?
+A: The .aRc file (decrypted database) may be obtained by sending database via 
+bluetooth or IR from phone using the SplashID program (Options - Send List - 
+Bluetooth) to other phone or PC.
+
+Q: Is export to .vid can be used to import to KeePass istead of this converter?
+A: Export to .vid is not supported in Splash ID Safe 3.32 for Symbian S60v2. 
+But supported in SplashID 3.33 for S60v3. So, you can try to send passwords 
+via bluetooth from S60v2 to S60v3 and then export to .vid.
 
 
 Format of SplashID Safe 3.32 for Symbian S60v2 decrypted database (.aRc file)
